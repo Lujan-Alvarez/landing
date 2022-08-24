@@ -128,3 +128,32 @@ img{
     text-decoration: none;
     color: #0e0e0e;
 }
+.piedepagina{
+    width: 100%;
+    background-color: #2e3542;
+}
+.piedepagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.piedepagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.piedepagina .grupo1 .box figure img {
+    width: 250px;
+}
+.piedepagina .grupo1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    
+}

@@ -4,7 +4,7 @@
 }
 body{
     width: 100%;
-    height: 100%;
+    height: 200vh;
     font-family: 'Covered By Your Grace', cursiva;
     margin: 0;
     background-image:url(./Santo.png);
@@ -20,8 +20,8 @@ header {
 nav a{
     color: black;
     text-decoration:underline;
-    margin-right: 70px;
-   font-size: 25px;
+    margin-right: 0px;
+   font-size: 1.2rem;
 }
 h1{ text-decoration: none;
      margin-left: 150px;
@@ -72,7 +72,7 @@ img{
 .banner__title{
     line-height: 2;
     font-size: 3em;
-    font-family:'Covered By Your Grace', cursiva;
+    font-family:'Covered By Your Grace';
 }
 .banner__p{
     line-height: 2;

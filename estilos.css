@@ -13,9 +13,9 @@ header {
 }
 nav a{
     color: black;
-    text-decoration:none;
+    text-decoration:underline;
     margin-right: 70px;
-   
+   font-size: 25px;
 }
 h1{ text-decoration: none;
      margin-left: 150px;
@@ -37,4 +37,38 @@ img{
     font-family:'Covered By Your Grace', cursiva;
     font-style: oblique;
     color: black;
+}
+.banner{
+    background: url(./banner.webp)fixed center/cover;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #353535;
+    opacity: 0.8;
+}
+.banner__info{
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+.banner__title{
+    line-height: 1.5;
+    font-size: 3em;
+    font-family:'Covered By Your Grace', cursiva;
+}
+.banner__p{
+    line-height: 2;
+    font-size: 2em;
+    font-family: 'Covered By Your Grace', cursiva;
 }

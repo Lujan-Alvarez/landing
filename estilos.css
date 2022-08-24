@@ -50,6 +50,7 @@ img{
     display: flex;
     align-items: center;
     justify-content:flex-start;
+    bottom: 10px;
 }
 .banner::before{
     content: "";
@@ -77,3 +78,15 @@ img{
     font-size: 2em;
     font-family: 'Covered By Your Grace', cursiva;
 }
+.Boton {
+    border: 7px solid #2e3542; 
+    padding: 15px; 
+    background-color: #d3d5db; 
+    color: #0e0e0e;  
+    text-decoration: none;
+    font-family: 'Covered By Your Grace', cursiva; 
+    border-radius: 35px;
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    }

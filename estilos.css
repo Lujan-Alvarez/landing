@@ -109,23 +109,22 @@ a, li{
 .menu-icon, #check{
     display: none;
 }
-.cards{
+.tar{
     text-align: center;
-    align-content: center;
-    align-items: center;
+    align-content:center;
+    align-items:center;
     justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-    margin-top: 30px;
+    max-width: 1;
+    margin:auto;
     display:flex;
-    flex-wrap: wrap;
-   
+    margin-top: 30px; 
+    gap:initial ;
   }
 
 .card{
-    width: 300px;
-    height: 500px;
-    background: white;
+    width: 1500px;
+    height: 400px;
+    background: rgb(222, 217, 217);
     margin: 5px;
     border: black 2px solid;
     border-radius: 10px;
@@ -185,6 +184,16 @@ a, li{
 #check:checked ~ ul{
     left: 0;
     transition: all 0.25s;
+
+}
+.card{
+    width: 400px;
+    height: 200px;
+    background: rgb(222, 217, 217);
+    margin: 0.7px;
+    border: black 2px solid;
+    border-radius: 10px;
+    font-size:13px;
 
 }
 }

@@ -135,7 +135,7 @@ a, li{
 .button-card{
     text-decoration:none;
     display:flex;
-    padding: 1px;
+    padding: 5px;
     margin-top: 0;
     color: #2fb4cc;
     border: 1px solid #2fb4cc;
@@ -149,7 +149,70 @@ a, li{
 
 }
 
-@media (max-width:768px){
+footer{
+    background-color: rgb(242, 174, 110);
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content:"" ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:rgb(62, 60, 58);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #333;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #333;
+    padding: 8px;
+}
+.footer-col .redes-sociales a{
+    display:inline;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin:0 10px 10px 0;  
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+    transition: all 0.5 ease;
+
+}
+@media (max-width:767px){
     .checkbtn{
         display: block;
     }
@@ -196,5 +259,12 @@ a, li{
     font-size:13px;
 
 }
+.footer-col{
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+
 }
- 
+
+}
+

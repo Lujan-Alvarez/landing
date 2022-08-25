@@ -12,6 +12,7 @@
 }
 .body{
     background-color: black;
+    background-image: url(./Santo.png);
 }
 a, li{
     font-family:'Aboreto', cursive;
@@ -107,6 +108,46 @@ a, li{
 }
 .menu-icon, #check{
     display: none;
+}
+.cards{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    display:flex;
+    flex-wrap: wrap;
+   
+  }
+
+.card{
+    width: 300px;
+    height: 500px;
+    background: white;
+    margin: 5px;
+    border: black 2px solid;
+    border-radius: 10px;
+    font-size: 35px;
+} .card img{
+    width: 90%;
+}
+.button-card{
+    text-decoration:none;
+    display:flex;
+    padding: 1px;
+    margin-top: 0;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    font-size:medium;
+}
+.button-card:hover{
+    background:#2fb4cc ;
+    color: #fff;
+
 }
 
 @media (max-width:768px){
